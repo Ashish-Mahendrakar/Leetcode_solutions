@@ -2,10 +2,10 @@ class Solution {
 public:
     void rr(vector<int>&ans,vector<vector<int>>& matrix,vector<vector<int>>& flag,int &count,int i,int j,int &mod)
     {
-        if(count ==0 && flag[i][j] !=0)
-        {
-            return;
-        }
+        // if(count ==0 && flag[i][j] !=0)
+        // {
+        //     return;
+        // }
         ans.push_back(matrix[i][j]);
         flag[i][j]=1;
         count--;
